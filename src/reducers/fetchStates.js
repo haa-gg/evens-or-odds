@@ -1,4 +1,4 @@
-export default {
-   success: 'Success',
-   error: 'Error'
+export default { 
+  success: 'success',
+  error: 'error'
 };
