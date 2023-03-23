@@ -1,3 +1,4 @@
+// This component displays the collapsible instructions
 import React from 'react';
 import { connect } from 'react-redux';
 import { expandInstructions, collapseInstructions } from '../actions/settings';
@@ -28,6 +29,8 @@ const Instructions = props => {
   )
 }
 
+// Connects this component to the store
+// https://react-redux.js.org/api/connect
 export default connect(
   state => ({ instructionsExpanded: state.settings.instructionsExpanded }),
   { expandInstructions, collapseInstructions }

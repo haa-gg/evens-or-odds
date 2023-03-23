@@ -1,7 +1,9 @@
+// This action pulls a freshly shuffled deck of cards from the deck API
 import { DECK, DECK_DRAW } from './types';
 
 const API_ADDRESS = 'https://deck-of-cards-api-wrapper.appspot.com';
 
+// 
 export const fetchDeckSuccess = deckJson => {
   const { remaining, deck_id } = deckJson;
 

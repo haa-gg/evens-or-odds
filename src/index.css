@@ -1,22 +1,22 @@
 @font-face {
-  font-family: RobotoCondensed;
-  src: url(assets/roboto-condensed.light.ttf);
-  font-weight: 800;
+  font-family: LibreBaskerville;
+  src: url(assets/LibreBaskerville-Regular.ttf);
 }
 
-@font-face {
-  font-family: EconomicaBold;
-  src: url(assets/economica-bold.ttf);
-}
-
-body {
+html body {
   text-align: center;
+  min-height:100vh;
   font-size: 20px;
   padding: 2.5%;
-  font-family: 'RobotoCondensed';
+  font-family: 'LibreBaskerville';
+  background-repeat: no-repeat;
+  background-size: cover!important; 
+  background-color:#000;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.45) 100%), url(assets/wood-bg-2.jpg) no-repeat;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'EconomicaBold';
+h1, h2, h3, h4, h5, p {
+  color:#fff!important;
+  font-family: 'LibreBaskerville';
 }
 
