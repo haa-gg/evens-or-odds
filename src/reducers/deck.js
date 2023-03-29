@@ -1,6 +1,8 @@
 import { DECK, DECK_DRAW } from '../actions/types';
+// Hooks to success and error props
 import fetchStates from './fetchStates';
 
+// Setting base props for the deck
 const DEFAULT_DECK = {
   deck_id: '',
   remaining: 0,
