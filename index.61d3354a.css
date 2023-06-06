@@ -1,0 +1,21 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url("LibreBaskerville-Regular.cf836af1.ttf");
+}
+
+html body {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(#000000d9 10%, #00000073 100%), url("wood-bg-2.54312e0f.jpg") no-repeat;
+  padding: 2.5%;
+  font-family: LibreBaskerville;
+  font-size: 20px;
+  background-size: cover !important;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-family: LibreBaskerville;
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */
